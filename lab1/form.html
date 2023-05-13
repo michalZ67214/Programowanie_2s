@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Lab 1</title>
+</head>
+<body>
+    <div id="calosc">
+        <header>
+            <a title="Strona główna" href="index.html" id="_table">
+                <table>
+                    <tr><td></td><td rowspan="2"></td><td></td></tr>
+                    <tr><td></td><td></td></tr>
+                    <tr><td></td><td rowspan="2" colspan="2"></td></tr>
+                    <tr><td></td></tr>
+                    <tr><td colspan="2"></td><td></td></tr>
+                </table>
+            </a>
+            <div id="_info">
+                <h2>Laboratorium 1 - Wprowadzenie do HTML</h2>
+                <h3>Michał Ziobro</h3>
+            </div>
+        </header>
+        <nav>
+            <a href="index.html">Strona główna</a>
+            <a href="books.html">Ulubione książki</a>
+            <a href="series.html">Ulubione seriale</a>
+            <a href="form.html">Formularz</a>
+        </nav>
+        <div id="content">
+            <section>
+                <article id="article_5">
+                    <span class="article_header">Your news form</span>
+                    <form action="#" method="get">
+                        <label for="name">Name:</label>
+                        <input id="name" name="name" type="text"/>
+                        <br/>
+                        <label for="email">Email:</label>
+                        <input id="email" name="email" type="text"/>
+                        <br/>
+                        <label for="daily">Do you want to get news daiy?</label>
+                        <input id="daily" name="daily" type="checkbox" />
+                        <br/>
+                        <label for="discount">Do you want to get 10% discount?</label>
+                        <input id="discount" name="discount" type="radio" />
+                        <br/>
+                        <label for="day">Select first news day</label>
+                        <input id="day" name="day" type="date" />
+                        <br/>
+                        <input type="submit" value="Subscribe!"/>
+                    </form>
+                </article>
+            </section>
+            <aside>
+                <img src="img4.png" />
+            </aside>
+        </div>
+        <footer>
+            <i>Michał Ziobro w67214, <b>GL07</b></i>
+        </footer>
+    </div>
+</body>
+</html>
